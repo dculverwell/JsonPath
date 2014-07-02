@@ -16,6 +16,7 @@ package com.jayway.jsonpath.internal;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.InvalidModelException;
+import com.jayway.jsonpath.JsonPathReplacement;
 import com.jayway.jsonpath.internal.filter.FilterFactory;
 import com.jayway.jsonpath.internal.filter.PathTokenFilter;
 
@@ -75,5 +76,17 @@ public class PathToken {
             return Integer.parseInt(matcher.group(1));
         }
         else throw new InvalidModelException("Could not get array index from fragment " + fragment);
+    }
+
+
+    /**
+     *
+     * @param replacement
+     * @return
+     */
+    public PathTokenFilter getFilter(JsonPathReplacement replacement) {
+        PathTokenFilter pathTokenFilter = getFilter();
+        pathTokenFilter.setReplacement(replacement);
+        return pathTokenFilter;
     }
 }

@@ -266,6 +266,56 @@ public class JsonPath {
     }
 
     /**
+     * Applies this JsonPath to the provided json document.
+     * Note that the document must be identified as either a List or Map by
+     * the {@link JsonProvider}
+     *
+     * @param jsonObject   a container Object
+     * @param configuration configuration to use
+     * @param replacement
+     * @return list of objects matched by the given path
+     */
+    public <T> T replace(Object jsonObject, Configuration configuration, JsonPathReplacement replacement) {
+        notNull(jsonObject, "json can not be null");
+        notNull(configuration, "configuration can not be null");
+
+        if (this.getPath().equals("$")) {
+            //This path only references the whole object. No need to do any work here...
+            return (T) jsonObject;
+        }
+
+        if (!configuration.getProvider().isContainer(jsonObject)) {
+            throw new IllegalArgumentException("Invalid container object");
+        }
+
+        LinkedList<Filter> contextFilters = new LinkedList<Filter>(filters);
+
+
+        Object result = jsonObject;
+
+        boolean inArrayContext = false;
+
+        for (PathToken pathToken : tokenizer) {
+            PathTokenFilter filter = pathToken.getFilter(replacement);
+
+            if(LOG.isDebugEnabled()){
+                System.out.println("Applying filter: " + filter + " to " + result);
+            }
+
+            result = filter.filter(result, configuration, contextFilters, inArrayContext);
+
+            if(result == null && !pathToken.isEndToken()){
+                throw new PathNotFoundException("Path token: '" + pathToken.getFragment() + "' not found.");
+            }
+
+            if (!inArrayContext) {
+                inArrayContext = filter.isArrayFilter();
+            }
+        }
+        return (T) result;
+    }
+
+    /**
      * Applies this JsonPath to the provided json string
      *
      * @param json a json string

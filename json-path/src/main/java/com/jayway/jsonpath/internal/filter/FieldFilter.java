@@ -95,6 +95,8 @@ public class FieldFilter extends PathTokenFilter {
             } else {
 
                 if(split.length == 1){
+                    if(replacement != null && condition.equals(replacement.condition))
+                        jsonProvider.setProperty(obj,condition,replacement.replacement);
                     return jsonProvider.getProperty(obj, condition);
                 } else {
                     Object res = jsonProvider.createMap();

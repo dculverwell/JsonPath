@@ -46,4 +46,13 @@ public interface ReadContext {
      * @return result
      */
     <T> T read(JsonPath path);
+
+    /**
+     * Writes to the given path from this context
+     *
+     * @param replacement path to apply
+     * @param <T>
+     * @return result
+     */
+    <T> T replace(JsonPathReplacement replacement);
 }

@@ -103,4 +103,10 @@ public class JsonReader implements ParseContext, ReadContext {
         return path.read(json, configuration);
     }
 
+    @Override
+    public <T> T replace(JsonPathReplacement replacement) {
+        notNull(replacement.path, "path can not be null");
+        JsonPath path = JsonPath.compile(replacement.path);
+        return path.replace(json, configuration, replacement);
+    }
 }

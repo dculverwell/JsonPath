@@ -16,6 +16,7 @@ package com.jayway.jsonpath.internal.filter;
 
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.Filter;
+import com.jayway.jsonpath.JsonPathReplacement;
 
 import java.util.LinkedList;
 
@@ -25,6 +26,7 @@ import java.util.LinkedList;
 public abstract class PathTokenFilter {
 
     final String condition;
+    protected JsonPathReplacement replacement;
 
     PathTokenFilter(String condition) {
         this.condition = condition;
@@ -66,5 +68,9 @@ public abstract class PathTokenFilter {
         }
 
 
+    }
+
+    public void setReplacement(JsonPathReplacement replacement) {
+        this.replacement = replacement;
     }
 }
