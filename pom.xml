@@ -65,7 +65,7 @@
     </properties>
 
     <scm>
-        <url>http://github.com/dculverwell/JsonPath/JsonPathWrite.git</url>
+        <url>https://github.com/dculverwell/JsonPathWrite</url>
         <connection>scm:git:git://github.com/dculverwell/JsonPathWrite.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/dculverwell/JsonPathWrite.git</developerConnection>
     </scm>
