@@ -12,9 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.internal;
+package com.github.dculverwell.jsonpathwrite.internal;
 
-import com.dculverwell.jsonpathwrite.InvalidPathException;
+import com.github.dculverwell.jsonpathwrite.InvalidPathException;
 
 import java.util.Iterator;
 import java.util.LinkedList;

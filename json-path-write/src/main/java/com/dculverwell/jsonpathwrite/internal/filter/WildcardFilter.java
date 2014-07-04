@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.internal.filter;
+package com.github.dculverwell.jsonpathwrite.internal.filter;
 
-import com.dculverwell.jsonpathwrite.Configuration;
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.Configuration;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
 
 /**
  * @author Kalle Stenflo

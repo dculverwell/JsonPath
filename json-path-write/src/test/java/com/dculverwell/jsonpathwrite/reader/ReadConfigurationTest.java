@@ -1,10 +1,10 @@
-package com.dculverwell.jsonpathwrite.reader;
+package com.github.dculverwell.jsonpathwrite.reader;
 
-import com.dculverwell.jsonpathwrite.Configuration;
-import com.dculverwell.jsonpathwrite.JsonPath;
-import com.dculverwell.jsonpathwrite.Option;
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
-import com.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
+import com.github.dculverwell.jsonpathwrite.Configuration;
+import com.github.dculverwell.jsonpathwrite.JsonPath;
+import com.github.dculverwell.jsonpathwrite.Option;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
 
 /**
  * User: kalle

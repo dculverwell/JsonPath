@@ -1,12 +1,12 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.Utils;
-import com.dculverwell.jsonpathwrite.spi.impl.JacksonProvider;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.spi.impl.JacksonProvider;
 import org.junit.Test;
 
 import java.io.Serializable;
 
-import static com.dculverwell.jsonpathwrite.JsonModel.model;
+import static com.github.dculverwell.jsonpathwrite.JsonModel.model;
 
 /**
  * Created by IntelliJ IDEA.

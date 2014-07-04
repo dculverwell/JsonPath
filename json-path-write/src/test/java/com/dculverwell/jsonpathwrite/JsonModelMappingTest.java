@@ -1,13 +1,13 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
 import org.junit.Test;
 
 import java.util.List;
 import java.util.Set;
 
-import static com.dculverwell.jsonpathwrite.Criteria.where;
-import static com.dculverwell.jsonpathwrite.Filter.filter;
-import static com.dculverwell.jsonpathwrite.JsonModel.model;
+import static com.github.dculverwell.jsonpathwrite.Criteria.where;
+import static com.github.dculverwell.jsonpathwrite.Filter.filter;
+import static com.github.dculverwell.jsonpathwrite.JsonModel.model;
 import static junit.framework.Assert.assertEquals;
 
 /**

@@ -1,6 +1,6 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.filter.eval.ExpressionEvaluator;
+import com.github.dculverwell.jsonpathwrite.internal.filter.eval.ExpressionEvaluator;
 import org.codehaus.jackson.node.BigIntegerNode;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -10,8 +10,8 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.Map;
 
-import static com.dculverwell.jsonpathwrite.Criteria.where;
-import static com.dculverwell.jsonpathwrite.Filter.filter;
+import static com.github.dculverwell.jsonpathwrite.Criteria.where;
+import static com.github.dculverwell.jsonpathwrite.Filter.filter;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

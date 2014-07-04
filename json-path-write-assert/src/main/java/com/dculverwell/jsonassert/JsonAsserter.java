@@ -1,4 +1,4 @@
-package com.dculverwell.jsonassert;
+package com.github.dculverwell.jsonassert;
 
 import org.hamcrest.Matcher;
 

@@ -12,17 +12,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
-import com.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Set;
 
-import static com.dculverwell.jsonpathwrite.internal.Utils.*;
+import static com.github.dculverwell.jsonpathwrite.internal.Utils.*;
 
 /**
  * User: kalle

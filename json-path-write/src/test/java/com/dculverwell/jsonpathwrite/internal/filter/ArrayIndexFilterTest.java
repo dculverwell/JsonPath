@@ -1,6 +1,6 @@
-package com.dculverwell.jsonpathwrite.internal.filter;
+package com.github.dculverwell.jsonpathwrite.internal.filter;
 
-import com.dculverwell.jsonpathwrite.JsonPath;
+import com.github.dculverwell.jsonpathwrite.JsonPath;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 

@@ -18,7 +18,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>json-path-writer-parent</artifactId>
-        <groupId>com.dculverwell.jsonpathwrite</groupId>
+        <groupId>com.github.dculverwell.jsonpathwrite</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>json-path-write-assert</artifactId>
@@ -26,7 +26,7 @@
     <url>http://code.google.com/p/json-path/</url>
     <dependencies>
         <dependency>
-            <groupId>com.dculverwell.jsonpathwrite</groupId>
+            <groupId>com.github.dculverwell.jsonpathwrite</groupId>
             <artifactId>json-path-write</artifactId>
             <version>${project.version}</version>
         </dependency>

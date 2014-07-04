@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite.internal.filter;
+package com.github.dculverwell.jsonpathwrite.internal.filter;
 
 import org.junit.Test;
 

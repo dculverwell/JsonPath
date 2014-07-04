@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite.spi;
+package com.github.dculverwell.jsonpathwrite.spi;
 
 import java.io.IOException;
 import java.io.InputStream;

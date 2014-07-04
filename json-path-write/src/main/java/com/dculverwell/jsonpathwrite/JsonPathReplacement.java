@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
 /**
  * Created by darryl on 2014/07/02.

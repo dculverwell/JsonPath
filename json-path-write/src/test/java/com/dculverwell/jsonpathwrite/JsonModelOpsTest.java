@@ -1,10 +1,10 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
 import org.junit.Test;
 
 import java.util.*;
 
-import static com.dculverwell.jsonpathwrite.JsonModel.model;
+import static com.github.dculverwell.jsonpathwrite.JsonModel.model;
 import static junit.framework.Assert.assertEquals;
 
 /**

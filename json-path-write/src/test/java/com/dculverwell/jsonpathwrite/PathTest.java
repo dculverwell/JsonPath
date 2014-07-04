@@ -1,6 +1,6 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.PathTokenizer;
+import com.github.dculverwell.jsonpathwrite.internal.PathTokenizer;
 import org.hamcrest.Matcher;
 import org.junit.Test;
 

@@ -1,11 +1,11 @@
-package com.dculverwell.jsonassert;
+package com.github.dculverwell.jsonassert;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.InputStream;
 
-import static com.dculverwell.jsonassert.JsonAssert.*;
+import static com.github.dculverwell.jsonassert.JsonAssert.*;
 import static org.hamcrest.Matchers.*;
 
 /**

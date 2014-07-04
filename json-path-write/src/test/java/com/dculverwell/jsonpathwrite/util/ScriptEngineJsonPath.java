@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite.util;
+package com.github.dculverwell.jsonpathwrite.util;
 
 import javax.script.Invocable;
 import javax.script.ScriptEngine;

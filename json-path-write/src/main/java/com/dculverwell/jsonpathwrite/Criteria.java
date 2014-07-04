@@ -12,15 +12,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
 
 import java.util.*;
 import java.util.regex.Pattern;
 
 import static java.util.Arrays.asList;
-import static com.dculverwell.jsonpathwrite.internal.Utils.*;
+import static com.github.dculverwell.jsonpathwrite.internal.Utils.*;
 
 /**
  * @author Kalle Stenflo

@@ -1,6 +1,6 @@
-package com.dculverwell.jsonpathwrite.internal;
+package com.github.dculverwell.jsonpathwrite.internal;
 
-import com.dculverwell.jsonpathwrite.InvalidConversionException;
+import com.github.dculverwell.jsonpathwrite.InvalidConversionException;
 
 import java.io.*;
 

@@ -12,9 +12,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.spi;
+package com.github.dculverwell.jsonpathwrite.spi;
 
-import com.dculverwell.jsonpathwrite.InvalidJsonException;
+import com.github.dculverwell.jsonpathwrite.InvalidJsonException;
 
 import java.io.InputStream;
 import java.io.Reader;

@@ -21,7 +21,7 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
-    <groupId>com.dculverwell.jsonpathwrite</groupId>
+    <groupId>com.github.dculverwell.jsonpathwrite</groupId>
     <artifactId>json-path-writer-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
@@ -64,18 +64,11 @@
     </properties>
 
     <scm>
-        <url>https://github.com/jayway/JsonPathWrite</url>
-        <connection>scm:git:git://github.com/jayway/JsonPathWrite.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/jayway/JsonPathWrite.git</developerConnection>
+        <url>https://github.com/dculverwell/JsonPathWrite</url>
+        <connection>scm:git:git://github.com/dculverwell/JsonPathWrite.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/dculverwell/JsonPathWrite.git</developerConnection>
     </scm>
 
-
-    <mailingLists>
-        <mailingList>
-            <name>JsonPath mailing-list</name>
-            <archive>https://groups.google.com/forum/#!forum/jsonpath</archive>
-        </mailingList>
-    </mailingLists>
 
     <modules>
         <module>json-path-write</module>

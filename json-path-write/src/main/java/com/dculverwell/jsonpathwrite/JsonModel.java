@@ -12,15 +12,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.JsonFormatter;
-import com.dculverwell.jsonpathwrite.internal.JsonReader;
-import com.dculverwell.jsonpathwrite.internal.PathToken;
-import com.dculverwell.jsonpathwrite.internal.Utils;
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
-import com.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
-import com.dculverwell.jsonpathwrite.spi.MappingProviderFactory;
+import com.github.dculverwell.jsonpathwrite.internal.JsonFormatter;
+import com.github.dculverwell.jsonpathwrite.internal.JsonReader;
+import com.github.dculverwell.jsonpathwrite.internal.PathToken;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
+import com.github.dculverwell.jsonpathwrite.spi.MappingProviderFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -28,7 +28,7 @@ import java.net.URL;
 import java.util.*;
 
 import static java.util.Arrays.asList;
-import static com.dculverwell.jsonpathwrite.internal.Utils.*;
+import static com.github.dculverwell.jsonpathwrite.internal.Utils.*;
 
 /**
  * A JsonModel holds a parsed JSON document and provides easy read and write operations. In contrast to the
@@ -94,7 +94,7 @@ public class JsonModel {
      *
      * @param jsonPath path to check
      * @return true if model contains path
-     * @see com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
+     * @see com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
      */
     public boolean hasPath(String jsonPath) {
         return hasPath(JsonPath.compile(jsonPath));
@@ -105,7 +105,7 @@ public class JsonModel {
      *
      * @param jsonPath path to check
      * @return true if model contains path
-     * @see com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
+     * @see com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
      */
     public boolean hasPath(JsonPath jsonPath) {
 
@@ -211,7 +211,7 @@ public class JsonModel {
 
     /**
      * Gets an {@link ArrayOps} for the array inside this JsonModel identified by the given JsonPath. The path must
-     * be definite ({@link com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
+     * be definite ({@link com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
      * <p/>
      * Note that the element returned by the given path must be a json array.
      *
@@ -224,7 +224,7 @@ public class JsonModel {
 
     /**
      * Gets an {@link ArrayOps} for the array inside this JsonModel identified by the given JsonPath. The path must
-     * be definite ({@link com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
+     * be definite ({@link com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
      * <p/>
      * Note that the element returned by the given path must be a json array.
      *
@@ -248,7 +248,7 @@ public class JsonModel {
 
     /**
      * Gets an {@link ObjectOps} for the object inside this JsonModel identified by the given JsonPath. The path must
-     * be definite ({@link com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
+     * be definite ({@link com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
      * <p/>
      * Note that the element returned by the given path must be a json object.
      *
@@ -261,7 +261,7 @@ public class JsonModel {
 
     /**
      * Gets an {@link ObjectOps} for the object inside this JsonModel identified by the given JsonPath. The path must
-     * be definite ({@link com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
+     * be definite ({@link com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()}).
      * <p/>
      * Note that the element returned by the given path must be a json object.
      *
@@ -336,7 +336,7 @@ public class JsonModel {
      *
      * @param jsonPath the absolute path to extract a JsonModel for
      * @return the new JsonModel
-     * @see com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
+     * @see com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
      */
     public JsonModel getSubModel(String jsonPath) {
         return getSubModel(JsonPath.compile(jsonPath));
@@ -349,7 +349,7 @@ public class JsonModel {
      *
      * @param jsonPath the absolute path to extract a JsonModel for
      * @return the new JsonModel
-     * @see com.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
+     * @see com.github.dculverwell.jsonpathwrite.JsonPath#isPathDefinite()
      */
     public JsonModel getSubModel(JsonPath jsonPath) {
         notNull(jsonPath, "jsonPath can not be null");
@@ -632,7 +632,7 @@ public class JsonModel {
      */
     public interface ObjectMappingModelReader {
         /**
-         * Converts this JsonModel to the specified class using the configured {@link com.dculverwell.jsonpathwrite.spi.MappingProvider}
+         * Converts this JsonModel to the specified class using the configured {@link com.github.dculverwell.jsonpathwrite.spi.MappingProvider}
          *
          * @param targetClass class to convert the {@link JsonModel} to
          * @param <T>         template class
@@ -647,7 +647,7 @@ public class JsonModel {
      */
     public interface ListMappingModelReader {
         /**
-         * Converts this JsonModel to the a list of objects with the provided class using the configured {@link com.dculverwell.jsonpathwrite.spi.MappingProvider}
+         * Converts this JsonModel to the a list of objects with the provided class using the configured {@link com.github.dculverwell.jsonpathwrite.spi.MappingProvider}
          *
          * @param targetClass class to convert the {@link JsonModel} array items to
          * @param <T>         template class
@@ -661,7 +661,7 @@ public class JsonModel {
         ListMappingModelReader toList();
 
         /**
-         * Converts this JsonModel to the a {@link List} of objects with the provided class using the configured {@link com.dculverwell.jsonpathwrite.spi.MappingProvider}
+         * Converts this JsonModel to the a {@link List} of objects with the provided class using the configured {@link com.github.dculverwell.jsonpathwrite.spi.MappingProvider}
          *
          * @param targetClass class to convert the {@link JsonModel} array items to
          * @param <T>         template class
@@ -670,7 +670,7 @@ public class JsonModel {
         <T> List<T> toListOf(Class<T> targetClass);
 
         /**
-         * Converts this JsonModel to the a {@link Set} of objects with the provided class using the configured {@link com.dculverwell.jsonpathwrite.spi.MappingProvider}
+         * Converts this JsonModel to the a {@link Set} of objects with the provided class using the configured {@link com.github.dculverwell.jsonpathwrite.spi.MappingProvider}
          *
          * @param targetClass class to convert the {@link JsonModel} array items to
          * @param <T>         template class

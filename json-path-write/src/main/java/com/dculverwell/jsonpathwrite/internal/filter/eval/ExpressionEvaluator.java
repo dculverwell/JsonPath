@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.internal.filter.eval;
+package com.github.dculverwell.jsonpathwrite.internal.filter.eval;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

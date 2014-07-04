@@ -1,6 +1,6 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
 import net.minidev.json.JSONObject;
 
 import org.hamcrest.Matchers;

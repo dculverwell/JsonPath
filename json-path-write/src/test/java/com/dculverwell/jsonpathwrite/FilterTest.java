@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-import static com.dculverwell.jsonpathwrite.Criteria.where;
-import static com.dculverwell.jsonpathwrite.Filter.filter;
+import static com.github.dculverwell.jsonpathwrite.Criteria.where;
+import static com.github.dculverwell.jsonpathwrite.Filter.filter;
 import static java.util.Arrays.asList;
 import static junit.framework.Assert.*;
 

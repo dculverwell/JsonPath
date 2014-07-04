@@ -12,13 +12,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.internal;
+package com.github.dculverwell.jsonpathwrite.internal;
 
-import com.dculverwell.jsonpathwrite.Configuration;
-import com.dculverwell.jsonpathwrite.InvalidModelException;
-import com.dculverwell.jsonpathwrite.JsonPathReplacement;
-import com.dculverwell.jsonpathwrite.internal.filter.FilterFactory;
-import com.dculverwell.jsonpathwrite.internal.filter.PathTokenFilter;
+import com.github.dculverwell.jsonpathwrite.Configuration;
+import com.github.dculverwell.jsonpathwrite.InvalidModelException;
+import com.github.dculverwell.jsonpathwrite.JsonPathReplacement;
+import com.github.dculverwell.jsonpathwrite.internal.filter.FilterFactory;
+import com.github.dculverwell.jsonpathwrite.internal.filter.PathTokenFilter;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

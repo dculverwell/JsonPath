@@ -1,7 +1,7 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
-import com.dculverwell.jsonpathwrite.internal.Utils;
-import com.dculverwell.jsonpathwrite.spi.HttpProviderFactory;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.spi.HttpProviderFactory;
 import org.junit.Test;
 
 import java.io.IOException;

@@ -12,17 +12,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
 
-import com.dculverwell.jsonpathwrite.internal.JsonReader;
-import com.dculverwell.jsonpathwrite.internal.PathToken;
-import com.dculverwell.jsonpathwrite.internal.PathTokenizer;
-import com.dculverwell.jsonpathwrite.internal.Utils;
-import com.dculverwell.jsonpathwrite.internal.filter.PathTokenFilter;
-import com.dculverwell.jsonpathwrite.spi.HttpProviderFactory;
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
-import com.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
+import com.github.dculverwell.jsonpathwrite.internal.JsonReader;
+import com.github.dculverwell.jsonpathwrite.internal.PathToken;
+import com.github.dculverwell.jsonpathwrite.internal.PathTokenizer;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.internal.filter.PathTokenFilter;
+import com.github.dculverwell.jsonpathwrite.spi.HttpProviderFactory;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +34,7 @@ import java.net.URL;
 import java.util.LinkedList;
 import java.util.regex.Pattern;
 
-import static com.dculverwell.jsonpathwrite.internal.Utils.*;
+import static com.github.dculverwell.jsonpathwrite.internal.Utils.*;
 import static java.util.Arrays.asList;
 
 /**

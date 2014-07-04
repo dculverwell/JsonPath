@@ -1,9 +1,9 @@
-package com.dculverwell.jsonassert;
+package com.github.dculverwell.jsonassert;
 
 
-import com.dculverwell.jsonassert.impl.JsonAsserterImpl;
-import com.dculverwell.jsonassert.impl.matcher.*;
-import com.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
+import com.github.dculverwell.jsonassert.impl.JsonAsserterImpl;
+import com.github.dculverwell.jsonassert.impl.matcher.*;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProviderFactory;
 import org.hamcrest.Matcher;
 
 import java.io.*;

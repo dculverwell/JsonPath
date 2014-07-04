@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.internal.filter;
+package com.github.dculverwell.jsonpathwrite.internal.filter;
 
-import com.dculverwell.jsonpathwrite.InvalidPathException;
-import com.dculverwell.jsonpathwrite.internal.PathToken;
+import com.github.dculverwell.jsonpathwrite.InvalidPathException;
+import com.github.dculverwell.jsonpathwrite.internal.PathToken;
 
 /**
  * @author Kalle Stenflo

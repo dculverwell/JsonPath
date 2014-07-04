@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite.internal;
+package com.github.dculverwell.jsonpathwrite.internal;
 
 public class JsonFormatter
 {

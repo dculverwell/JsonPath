@@ -12,11 +12,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.spi.impl;
+package com.github.dculverwell.jsonpathwrite.spi.impl;
 
-import com.dculverwell.jsonpathwrite.InvalidJsonException;
-import com.dculverwell.jsonpathwrite.spi.MappingProvider;
-import com.dculverwell.jsonpathwrite.spi.Mode;
+import com.github.dculverwell.jsonpathwrite.InvalidJsonException;
+import com.github.dculverwell.jsonpathwrite.spi.MappingProvider;
+import com.github.dculverwell.jsonpathwrite.spi.Mode;
 import org.codehaus.jackson.JsonGenerator;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.type.CollectionType;

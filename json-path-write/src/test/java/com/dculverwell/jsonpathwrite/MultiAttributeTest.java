@@ -1,4 +1,4 @@
-package com.dculverwell.jsonpathwrite;
+package com.github.dculverwell.jsonpathwrite;
 
 import org.junit.Test;
 

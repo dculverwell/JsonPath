@@ -1,8 +1,8 @@
-package com.dculverwell.jsonpathwrite.internal;
+package com.github.dculverwell.jsonpathwrite.internal;
 
-import com.dculverwell.jsonpathwrite.*;
-import com.dculverwell.jsonpathwrite.spi.HttpProviderFactory;
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.*;
+import com.github.dculverwell.jsonpathwrite.spi.HttpProviderFactory;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import static com.dculverwell.jsonpathwrite.internal.Utils.*;
+import static com.github.dculverwell.jsonpathwrite.internal.Utils.*;
 
 /**
  * User: kalle

@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dculverwell.jsonpathwrite.spi.impl;
+package com.github.dculverwell.jsonpathwrite.spi.impl;
 
-import com.dculverwell.jsonpathwrite.internal.Utils;
-import com.dculverwell.jsonpathwrite.spi.JsonProvider;
+import com.github.dculverwell.jsonpathwrite.internal.Utils;
+import com.github.dculverwell.jsonpathwrite.spi.JsonProvider;
 
 import java.io.Serializable;
 import java.util.ArrayList;

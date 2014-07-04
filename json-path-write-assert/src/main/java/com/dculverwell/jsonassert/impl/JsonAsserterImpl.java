@@ -1,9 +1,9 @@
-package com.dculverwell.jsonassert.impl;
+package com.github.dculverwell.jsonassert.impl;
 
 
-import com.dculverwell.jsonassert.JsonAsserter;
-import com.dculverwell.jsonpathwrite.InvalidPathException;
-import com.dculverwell.jsonpathwrite.JsonPath;
+import com.github.dculverwell.jsonassert.JsonAsserter;
+import com.github.dculverwell.jsonpathwrite.InvalidPathException;
+import com.github.dculverwell.jsonpathwrite.JsonPath;
 import org.hamcrest.Matcher;
 
 import static java.lang.String.format;
