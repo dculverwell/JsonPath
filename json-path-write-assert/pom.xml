@@ -23,7 +23,7 @@
     </parent>
     <artifactId>json-path-write-assert</artifactId>
     <name>json-path-write-assert</name>
-    <url>http://code.google.com/p/json-path/</url>
+    <url>https://github.com/dculverwell/JsonPathWrite</url>
     <dependencies>
         <dependency>
             <groupId>com.github.dculverwell.jsonpathwrite</groupId>

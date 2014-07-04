@@ -26,7 +26,7 @@
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>json-path-writer-parent-pom</name>
-    <description>Java JsonPath implementation</description>
+    <description>Java JsonPath with write implementation</description>
     <inceptionYear>2011</inceptionYear>
     <issueManagement>
         <system>GitHub Issue Tracking</system>
@@ -40,12 +40,11 @@
     </licenses>
     <developers>
         <developer>
-            <name>Kalle Stenflo</name>
-            <id>kalle.stenflo</id>
-            <organization>Jayway</organization>
-            <organizationUrl>http://www.jayway.com</organizationUrl>
-            <email>kale.stenflo at gmail.com</email>
-            <timezone>+1</timezone>
+            <name>Darryl Culverwell</name>
+            <id>dculverwell</id>
+            <organization>dculverwell</organization>
+            <email>dculverwell at gmail.com</email>
+            <timezone>+2</timezone>
             <roles>
                 <role>Developer</role>
             </roles>

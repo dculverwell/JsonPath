@@ -24,7 +24,7 @@
     <artifactId>json-path-write</artifactId>
     <packaging>bundle</packaging>
     <name>json-path-write</name>
-    <url>http://code.google.com/p/json-path/</url>
+    <url>https://github.com/dculverwell/JsonPathWrite</url>
     <dependencies>
         <dependency>
             <groupId>net.minidev</groupId>
