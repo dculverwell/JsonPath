@@ -21,12 +21,11 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
-    <groupId>com.jayway.jsonpath</groupId>
-    <artifactId>json-path</artifactId>
+    <groupId>com.dculverwell.jsonpathwrite</groupId>
+    <artifactId>json-path-writer-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <url>https://github.com/jayway/JsonPathWrite</url>
-    <name>json-path-pom</name>
+    <name>json-path-writer-parent-pom</name>
     <description>Java JsonPath implementation</description>
     <inceptionYear>2011</inceptionYear>
     <issueManagement>
@@ -79,8 +78,8 @@
     </mailingLists>
 
     <modules>
-        <module>json-path</module>
-        <module>json-path-assert</module>
+        <module>json-path-write</module>
+        <module>json-path-write-assert</module>
     </modules>
 
     <build>
